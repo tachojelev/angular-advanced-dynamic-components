@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit, OnDestroy {
-  message: string;
+  data: string;
 
   ngOnInit(): void {
     console.log('HomeComponent.ngOnInit()');
